@@ -1,16 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import { database } from 'firebase/database'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          hi ,there this is my first chat app using firebase with reactjs
-        </p>
-      </header>
-    </div>
-  );
+    <>
+      <div>hi</div>
+    </>
+  )
 }
 
 export default App;
+
